@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "type": "module",
   "scripts": {
     "start:web-ui": "lerna run --scope web-ui storybook --stream",
     "build:web-ui": "lerna run --scope web-ui build --stream",
